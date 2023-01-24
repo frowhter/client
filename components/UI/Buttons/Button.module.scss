@@ -1,0 +1,94 @@
+
+.btn{
+  height: 52px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #2E71F0;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFF;
+  padding: 15px 30px;
+  transition: 0.2s;
+  background: none;
+}
+.btn:disabled, .btn:disabled:hover{
+  opacity: 0.3;
+  background-color: #2E71F0;
+  color: white;
+}
+
+.btn:hover{
+  background-color: #2E71F0;
+}
+
+.filled{
+  background-color: #2E71F0;
+}
+
+.blank_text_blue{
+  color: #2E71F0;
+}
+.blank_text_blue:hover{
+  color: white;
+}
+.blank_text_white{
+  color: white!important;
+}
+.blank_text_white:hover{
+  color: #2E71F0!important;
+}
+
+.navigate{
+  width: 54px;
+  height: 54px;
+  background: rgb(47 48 50 / 17%);
+  backdrop-filter: blur(12px);
+  color: white;
+  padding: 20px 15px;
+}
+
+.navigateGenerations{
+  width: 28px;
+  height: 28px;
+  background: #F5F5F5;
+  border-color: transparent;
+  color: black;
+  padding: 6px;
+  backdrop-filter: blur(12px);
+}
+
+.navigatePagination{
+  width: 40px;
+  height: 40px!important;
+  padding: 8px;
+  color: black;
+  border: 1px solid #E0E0E0;
+}
+.navigatePagination:hover{
+  color: white;
+}
+
+.navigatePaginationPoint{
+  width: 8px;
+  height: 8px!important;
+  border-radius: 50%!important;
+  padding: 0;
+}
+
+.filled:hover {
+  background: none;
+}
+.filled:hover{
+  color: #2E71F0;;
+  background: white;
+}
+
+.width{
+  width: 100%;
+}

@@ -1,0 +1,158 @@
+
+.header {
+    background-color: #091D3B;
+    position: relative;
+    overflow: hidden;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 850px){
+    .header::after {
+        content: "";
+        width: 372px;
+        height: 1850px;
+        position: absolute;
+        top: -779px;
+        right: 0;
+        background-color: #2269EF;
+        transform: rotate(30deg);
+    }
+}
+
+
+.header_content {
+    position: relative;
+    color: #FFF;
+    z-index: 1000;
+
+}
+
+.header_content_body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 71px;
+}
+
+.header_content_text{
+    display: flex;
+    gap: 27px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header_content_content{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.header_content_title {
+    max-width: 486px;
+    color: #fff;
+}
+
+
+
+.latest{
+    background: #F3F7FE;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.latest_top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.btnHeaderCatalog, .btnHeaderCall{
+    width: 100%;
+    gap: 20px;
+}
+
+.btnHeaderCatalog{
+    padding: 10px 30px!important;
+    height: fit-content!important;
+    border-color: white !important;
+}
+
+
+.navBarCallIconsHorizontal{
+    z-index: 9000;
+    position: fixed;
+    top: 205px;
+    right: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 20px;
+}
+.navBarCallIconsVertical{
+    display: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width: 500px){
+    .header_content_body {
+        margin-bottom: 40px;
+    }
+    .navBarCallIconsHorizontal{
+        z-index: 15000;
+        position: fixed;
+        top: 205px;
+        right: 16px;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        gap: 20px;
+    }
+    .navBarCallIconsVertical{
+        display: flex;
+        background: white;
+        padding: 17px 34px;
+        margin-top: 25px;
+    }
+}
+
+
+@media screen and (min-width: 500px){
+    .btnHeaderCatalog{
+        display: none!important;
+    }
+}
+
+@media screen  and (min-width: 950px){
+    .width{
+        width: fit-content !important;
+    }
+}
+@media screen  and (max-width: 950px){
+    .header_content_text{
+        margin: 0 auto;
+    }
+    .btnCallContainer{
+        width: 100%;
+    }
+    .latest{
+        padding: 60px 0;
+    }
+    .latest_top {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+    }
+}

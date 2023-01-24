@@ -1,0 +1,40 @@
+
+.slider{
+  display: flex;
+  margin: 15px 0 32px;
+  gap: 10px;
+}
+
+
+
+.slider_card {
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
+  height: 92px;
+  font-size: 12px;
+  color: #000;
+}
+
+.slider_card_item_img {
+  height: 62px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.slider_card_item_label {
+  font-weight: 600;
+  line-height: 140%;
+  font-size: 14px;
+}
+.slider_card_item_description {
+  font-weight: 400;
+  line-height: 120%;
+  font-size: 14px;
+}
